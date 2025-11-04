@@ -93,6 +93,7 @@
             btn_sair.TabIndex = 5;
             btn_sair.Text = "Sair";
             btn_sair.UseVisualStyleBackColor = true;
+            btn_sair.Click += btn_sair_Click;
             // 
             // btn_entrar
             // 

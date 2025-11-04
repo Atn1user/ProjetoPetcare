@@ -16,5 +16,19 @@ namespace ProjetoPetcare
         {
             InitializeComponent();
         }
+
+        private void btn_voltar_Click(object sender, EventArgs e)
+        {
+            FrmMenuPricipal abrir = new FrmMenuPricipal();
+            abrir.Show();
+            this.Hide();
+        }
+
+        private void btn_limpar_Click(object sender, EventArgs e)
+        {
+            txt_nome.Clear();
+            txt_idade.Clear();
+            txt_crm.Clear();
+        }
     }
 }

@@ -67,6 +67,7 @@
             btn_cadastro_veterinario.TabIndex = 4;
             btn_cadastro_veterinario.Text = "Cadastro Veterinario";
             btn_cadastro_veterinario.UseVisualStyleBackColor = true;
+            btn_cadastro_veterinario.Click += btn_cadastro_veterinario_Click;
             // 
             // btn_produtos
             // 

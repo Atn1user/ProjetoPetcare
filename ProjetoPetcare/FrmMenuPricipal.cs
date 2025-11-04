@@ -35,5 +35,12 @@ namespace ProjetoPetcare
         {
             Close();
         }
+
+        private void btn_cadastro_veterinario_Click(object sender, EventArgs e)
+        {
+            FrmCadastroVeterinario abrir = new FrmCadastroVeterinario();
+            abrir.Show();
+            this.Hide();
+        }
     }
 }
