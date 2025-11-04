@@ -42,5 +42,10 @@ namespace ProjetoPetcare
             abrir.Show();
             this.Hide();
         }
+
+        private void lbl_PetCare_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

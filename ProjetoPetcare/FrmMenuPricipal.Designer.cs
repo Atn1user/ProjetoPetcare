@@ -94,11 +94,12 @@
             // 
             lbl_PetCare.AutoSize = true;
             lbl_PetCare.Font = new Font("Franklin Gothic Heavy", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_PetCare.Location = new Point(396, 44);
+            lbl_PetCare.Location = new Point(392, 58);
             lbl_PetCare.Name = "lbl_PetCare";
             lbl_PetCare.Size = new Size(69, 21);
             lbl_PetCare.TabIndex = 1;
             lbl_PetCare.Text = "PetCare";
+            lbl_PetCare.Click += lbl_PetCare_Click;
             // 
             // FrmMenuPricipal
             // 
